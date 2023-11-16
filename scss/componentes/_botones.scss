@@ -8,13 +8,45 @@
     justify-content: center;
     border-radius: 0.8rem;
     border: 2px solid $main-light-c;
-    box-shadow: $box-shadow;
-    color: $main-light-c;
-    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;;
+    a {
+        text-decoration: none;
+        color: $main-light-c;
+    }
+
+    &:hover {
+        background-color: $main-light-c;
+        color: $ink;
+        box-shadow: $box-shadow;
+        transform: scale(1.1);
+        &:hover a {
+            color: $ink;
+        }
+    }
 }
 
 .button-2 {
     color: $main-light-c;
-    text-decoration: none;
     padding: 1rem;
+    transition: transform 0.3s ease;
+    a{
+        text-decoration: none;
+        color: $main-light-c;
+    }
+    &:hover {
+        transform: scale(1.1);
+        text-shadow: $box-shadow;
+    }
 }
+.contact-button {
+    display: inline-block;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.8rem;
+    background-image: $main-gradient-hero;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+

@@ -1,22 +1,32 @@
 // base
-@import'../base/_nav-bar.scss';
+@import "../base/_nav-bar.scss";
 // componentes
 @import "../componentes/_colores.scss", "../componentes/_botones.scss",
-    "../componentes/_fuentes.scss", '../componentes/_global-selector.scss';
+    "../componentes/_fuentes.scss", "../componentes/_global-selector.scss";
 
-header {
+.header-wrap {
     min-height: 100vh;
-    background-color: $main-dark-c;
+    background-image: $main-gradient-hero;
+    background-size: 300%;
+    animation: header-animation 5s infinite alternate;
     box-shadow: $box-shadow;
 }
 
-.call-to-action-container{
-h1{
-    color: $main-light-c;
+@keyframes header-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
 }
-h2{
-    color: $main-light-c;
-}
+.call-to-action-container {
+    h1 {
+        color: $main-light-c;
+    }
+    h2 {
+        color: $main-light-c;
+    }
 }
 
 /* call to action start */
@@ -30,9 +40,8 @@ h2{
     padding: 10%;
 }
 /* buttons container */
+
 .buttons-action {
     padding: 10px;
     display: grid;
-    grid-template-columns: 100px 100px;
-}
-/* call to action end */
+    grid-template-columns: 100px 100px;}

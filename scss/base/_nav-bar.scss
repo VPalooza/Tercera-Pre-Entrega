@@ -6,49 +6,46 @@ button {
     background-color: $main-light-c;
 }
 nav {
-    padding: 2em;
-    background-color: $main-dark-c;
+    padding: 0.2em;
+    background: rgba($main-light-c, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 10px; /* Adjust the margin as needed */
 }
 
 .navbar {
     font-size: 1.5em;
     box-shadow: $box-shadow;
-    border-bottom: 3px solid $main-light-c;
+    padding-inline: 1em;
     list-style-type: none;
+    transition: color 0.3s ease;
+
+    .contact-button:hover {
+        box-shadow: $box-shadow;
+    }
+
+    a {
+        color: $main-light-c;
+        font-weight: 700;
+        transition: color 0.3s ease, transform 0.2s ease;
+        text-decoration: none;
+        margin-inline: auto;
+    }
+
+    a:hover {
+        color: $ink;
+        transform: scale(1.1);
+    }
 }
 
 .navbar-toggler {
     color: $main-light-c;
 }
 
-.navbar a {
-    color: $main-light-c;
-    position: relative;
-}
-
-.nav-link:focus,
-.nav-link:hover {
-    color: $main-light-c;
-}
-
-nav a::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    border-radius: 2px;
-    background-color: $main-light-c;
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform 0.3s ease-in-out;
-}
-
-nav a:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
-}
 .navbar-brand {
     font-size: 2em;
     font-style: normal;
@@ -56,4 +53,3 @@ nav a:hover::before {
     color: $main-light-c;
     text-transform: uppercase;
 }
-/* navbar end */
