@@ -1,0 +1,38 @@
+// base
+@import'../base/_nav-bar.scss';
+// componentes
+@import "../componentes/_colores.scss", "../componentes/_botones.scss",
+    "../componentes/_fuentes.scss", '../componentes/_global-selector.scss';
+
+header {
+    min-height: 100vh;
+    background-color: $main-dark-c;
+    box-shadow: $box-shadow;
+}
+
+.call-to-action-container{
+h1{
+    color: $main-light-c;
+}
+h2{
+    color: $main-light-c;
+}
+}
+
+/* call to action start */
+
+.title-color {
+    color: $main-grey-c;
+}
+
+.header-container {
+    margin-left: auto;
+    padding: 10%;
+}
+/* buttons container */
+.buttons-action {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+/* call to action end */

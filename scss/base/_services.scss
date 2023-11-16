@@ -1,0 +1,48 @@
+@import "../componentes/_colores.scss", "../componentes/_botones.scss",
+    "../componentes/_fuentes.scss";
+
+#sec-serv {
+    min-height: 80vh;
+    background-color: $main-light-c;
+}
+
+#sec-serv h2 {
+    padding: 3%;
+    color: $main-light-c;
+    background-color: $main-dark-c;
+    box-shadow: $box-shadow;
+}
+.serv-box {
+    padding: 10%;
+    a {
+        color: $main-light-c;
+        background-color: $main-dark-c;
+        border-radius: 10%;
+        padding: 4%;
+        width: auto;
+        text-decoration: none;
+    }
+}
+.serv-title {
+    padding: 5%;
+    font-weight: bold;
+}
+
+.serv-1-box,
+.serv-2-box,
+.serv-3-box {
+    height: auto;
+    border-radius: 15px;
+    border: 8px solid $main-dark-c;
+    box-shadow: $box-shadow;
+    padding: 2%;
+    line-height: 30px;
+}
+.service-vector {
+    transform: scale(0.8, 0.8);
+    border-radius: 15px;
+    background: $main-dark-c;
+    color: $main-light-c;
+    padding: 10px;
+    font-size: 80px;
+}

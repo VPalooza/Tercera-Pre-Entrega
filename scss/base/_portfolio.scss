@@ -1,0 +1,32 @@
+@import "../componentes/_colores.scss", "../componentes/_botones.scss",
+    "../componentes/_fuentes.scss";
+
+#portfolio {
+    padding: 10%;
+    background-color: $main-light-c;
+}
+.portfolio-container {
+    padding-left: 150px;
+}
+.portfolio-boxes1,
+.portfolio-boxes2,
+.portfolio-boxes3,
+.portfolio-boxes4 {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background: $main-light-c;
+    box-shadow: $box-shadow;
+}
+.porfolio-text {
+    padding-right: 100px;
+    a {
+        font-weight: 700;
+        text-decoration: none;
+        color: $main-dark-c;
+    }
+    h2 {
+        padding: 0 0 20px 0;
+        border-bottom: 3px solid $main-dark-c;
+    }
+}

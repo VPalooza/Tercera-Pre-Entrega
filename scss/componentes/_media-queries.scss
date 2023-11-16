@@ -1,0 +1,125 @@
+@import'_colores.scss';
+// Extra small devices (portrait phones, less than 576px) 
+@media (max-width: 575.98px) {
+    .navbar {
+        font-size: 1em;
+    }
+    .portfolio-boxes1 {
+        width: 40%;
+        height: 40%;
+    }
+
+    .portfolio-boxes2,
+    .portfolio-boxes3,
+    .portfolio-boxes4 {
+        display: none;
+    }
+
+    .header-container {
+        margin: auto;
+        position: relative;
+        padding: 100px;
+    }
+
+    .about-img-box {
+        display: none;
+    }
+    h1 {
+        font-size: 61.7px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-size: 41.7px;
+        font-weight: 600;
+    }
+    .logo-footer {
+        display: flex;
+        justify-content: center;
+    }
+    .sm-footer-box {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+//  Small devices (landscape phones, less than 768px) 
+@media (max-width: 767.98px) {
+    .navbar {
+        font-size: 1em;
+    }
+    .portfolio-boxes1,
+    .portfolio-boxes2,
+    .portfolio-boxes3,
+    .portfolio-boxes4 {
+        width: 110px;
+        height: 110px;
+    }
+
+    .header-container {
+        padding: 100 100 200 100px;
+    }
+
+    .about-img-box {
+        display: none;
+    }
+
+    h2 {
+        font-size: 41.7px;
+        font-weight: 600;
+    }
+
+    .serv-1-box,
+    .serv-2-box,
+    .serv-3-box {
+        border: 4px solid $main-dark-c;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-footer {
+        display: none;
+    }
+    .sm-footer-box {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+// Medium devices (tablets, less than 992px) 
+@media (max-width: 991.98px) {
+    .portfolio-boxes1,
+    .portfolio-boxes2,
+    .portfolio-boxes3,
+    .portfolio-boxes4 {
+        width: 200px;
+        height: 200px;
+    }
+    .serv-1-box,
+    .serv-2-box,
+    .serv-3-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border: 4px solid $main-dark-c;
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    .portfolio-boxes1,
+    .portfolio-boxes2,
+    .portfolio-boxes3,
+    .portfolio-boxes4 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .serv-1-box,
+    .serv-2-box,
+    .serv-3-box {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+

@@ -1,0 +1,39 @@
+@import "../componentes/_colores.scss", "../componentes/_botones.scss",
+    "../componentes/_fuentes.scss";
+
+footer {
+    background-color: $main-dark-c;
+    height: auto;
+    padding: 3%;
+    color: $main-light-c;
+    a {
+        color: $main-light-c;
+        text-decoration: none;
+    }
+    li {
+        list-style-type: none;
+    }
+}
+
+.logo-footer {
+    padding: 3%;
+}
+
+.p-container {
+    padding: 2%;
+}
+
+.services-box {
+    padding: 2%;
+    font-size: 1.2em;
+}
+
+.contact-box {
+    padding: 2%;
+    font-size: 1.2em;
+}
+
+.sm-footer-box {
+    padding: 2%;
+    font-size: 3em;
+}

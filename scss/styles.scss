@@ -1,0 +1,11 @@
+// base
+@import "base/_header.scss", "base/_nav-bar.scss", "base/_about-me.scss",
+    "base/_portfolio.scss", "base/_services.scss", "base/_footer.scss";
+// pages-sass
+@import "pages-sass/_portfolio-page.scss", 'pages-sass/_about-me-page.scss', 'pages-sass/_contact-page.scss', 'pages-sass/_services-page.scss';
+// componentes
+@import "componentes/_colores.scss", "componentes/_botones.scss",
+    "componentes/_fuentes.scss", "componentes/_global-selector.scss", 'componentes/_media-queries.scss';
+
+
+
