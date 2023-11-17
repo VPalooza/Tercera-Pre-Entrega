@@ -2,9 +2,9 @@
     "../componentes/_fuentes.scss";
 
 footer {
-    background-color: $main-dark-c;
+    background-image: $main-gradient-hero;
     height: auto;
-    padding: 3%;
+    
     color: $main-light-c;
     a {
         color: $main-light-c;
@@ -13,10 +13,14 @@ footer {
     li {
         list-style-type: none;
     }
+    .credit{
+        color: $main-light-c;
+    }
 }
 
 .logo-footer {
     padding: 3%;
+    background-color: $main-dark-c;
 }
 
 .p-container {
