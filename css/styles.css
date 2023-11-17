@@ -2074,9 +2074,6 @@ html {
   #sec-serv {
     clip-path: none;
   }
-  * {
-    overflow: hidden;
-  }
   .navbar {
     font-size: 1em;
   }
