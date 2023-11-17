@@ -4,12 +4,29 @@
 @import "../componentes/_colores.scss", "../componentes/_botones.scss",
     "../componentes/_fuentes.scss", "../componentes/_global-selector.scss";
 
+    header{
+        box-shadow: $box-shadow;
+    }
+
 .header-wrap {
-    min-height: 100vh;
+    min-height: 110vh;
     background-image: $main-gradient-hero;
     background-size: 300%;
     animation: header-animation 5s infinite alternate;
-    box-shadow: $box-shadow;
+    --mask: radial-gradient(
+                54.79px at 50% calc(100% - 73.75px),
+                #000 99%,
+                #0000 101%
+            )
+            calc(50% - 50px) 0/100px 100%,
+        radial-gradient(
+                54.79px at 50% calc(100% + 48.75px),
+                #0000 99%,
+                #000 101%
+            )
+            50% calc(100% - 25px) / 100px 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
 }
 
 @keyframes header-animation {
@@ -44,4 +61,5 @@
 .buttons-action {
     padding: 10px;
     display: grid;
-    grid-template-columns: 100px 100px;}
+    grid-template-columns: 100px 100px;
+}

@@ -128,7 +128,6 @@ nav {
   font-weight: 700;
   transition: color 0.3s ease, transform 0.2s ease;
   text-decoration: none;
-  margin-inline: auto;
 }
 .navbar a:hover {
   color: #100B17;
@@ -255,12 +254,29 @@ html {
   font-family: "Montserrat";
 }
 
+header {
+  box-shadow: 0px 4px 5px 0px rgba(15, 15, 15, 0.3);
+}
+
 .header-wrap {
-  min-height: 100vh;
+  min-height: 110vh;
   background-image: linear-gradient(to right, #658DBA 0%, #6B4E93 100%);
   background-size: 300%;
   animation: header-animation 5s infinite alternate;
-  box-shadow: 0px 4px 5px 0px rgba(15, 15, 15, 0.3);
+  --mask: radial-gradient(
+              54.79px at 50% calc(100% - 73.75px),
+              #000 99%,
+              #0000 101%
+          )
+          calc(50% - 50px) 0/100px 100%,
+      radial-gradient(
+              54.79px at 50% calc(100% + 48.75px),
+              #0000 99%,
+              #000 101%
+          )
+          50% calc(100% - 25px) / 100px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
 }
 
 @keyframes header-animation {
@@ -425,7 +441,6 @@ nav {
   font-weight: 700;
   transition: color 0.3s ease, transform 0.2s ease;
   text-decoration: none;
-  margin-inline: auto;
 }
 .navbar a:hover {
   color: #100B17;
@@ -1166,7 +1181,6 @@ nav {
   font-weight: 700;
   transition: color 0.3s ease, transform 0.2s ease;
   text-decoration: none;
-  margin-inline: auto;
 }
 .navbar a:hover {
   color: #100B17;
@@ -1293,12 +1307,29 @@ html {
   font-family: "Montserrat";
 }
 
+header {
+  box-shadow: 0px 4px 5px 0px rgba(15, 15, 15, 0.3);
+}
+
 .header-wrap {
-  min-height: 100vh;
+  min-height: 110vh;
   background-image: linear-gradient(to right, #658DBA 0%, #6B4E93 100%);
   background-size: 300%;
   animation: header-animation 5s infinite alternate;
-  box-shadow: 0px 4px 5px 0px rgba(15, 15, 15, 0.3);
+  --mask: radial-gradient(
+              54.79px at 50% calc(100% - 73.75px),
+              #000 99%,
+              #0000 101%
+          )
+          calc(50% - 50px) 0/100px 100%,
+      radial-gradient(
+              54.79px at 50% calc(100% + 48.75px),
+              #0000 99%,
+              #000 101%
+          )
+          50% calc(100% - 25px) / 100px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
 }
 
 @keyframes header-animation {
@@ -1463,7 +1494,6 @@ nav {
   font-weight: 700;
   transition: color 0.3s ease, transform 0.2s ease;
   text-decoration: none;
-  margin-inline: auto;
 }
 .navbar a:hover {
   color: #100B17;
