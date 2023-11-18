@@ -13,6 +13,7 @@
         100% 100%,
         0 100%
     );
+    background-color: $main-dark-c;
     margin-top: -50px;
     height: auto;
 
@@ -20,7 +21,6 @@
 
 
 .about-image {
-    background-color: $main-dark-c;
     padding: 100px;
     display: flex;
     justify-content: center;
@@ -66,7 +66,6 @@
 }
 
 .about-presentation {
-    background-color: $main-dark-c;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,7 +95,7 @@
         .about-p-strong {
             font-weight: 600;
             background: $main-gradient-hero;
-            background-clip: text;
+            -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 

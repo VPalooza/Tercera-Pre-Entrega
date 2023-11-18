@@ -138,15 +138,17 @@
     <!-- PORTFOLIO SECTION END -->
 
     <!-- SERVICES SECTION START -->
-    <section id="sec-serv">
+    <section id="sec-serv container-fluid d-flex flex-wrap">
+        <div class="serv-full-wrap d-flex flex-wrap row justify-content-center align-content">
         <div class="text-container-serv">
             <h2 class="text-center">Services</h2>
         </div>
-        <div class="serv-box-container">
-            <div class="serv-box 1">
+        <div class="serv-box-container container-fluid d-flex flex-wrap justify-items-center col-md-9">
+            <div class="serv-box 1 d-flex flex-column col-md-4">
+                <!-- Add col-md-4 class to specify the column size for medium screens and larger -->
                 <img src="./images/svg/page coding.svg" alt="page coding vector" class="service-vector">
-                <div class="black-container">
-                    <h4 class="serv-title">Servicio 1</h4>
+                <div class="black-container d-flex flex-column">
+                    <h4 class="serv-title text-center">Servicio 1</h4>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
                         quibusdam asperiores assumenda expedita ut ducimus?
@@ -154,8 +156,9 @@
                     <a href="services.html" class="button-action-serv">Ver más</a>
                 </div>
             </div>
-
-            <div class="serv-box 2">
+        
+            <div class="serv-box 2 d-flex flex-column col-md-4 ">
+                <!-- Add col-md-4 class to specify the column size for medium screens and larger -->
                 <img src="./images/svg/pluma.svg" alt="pluma vector" class="service-vector">
                 <div class="black-container">
                     <h4 class="serv-title">Servicio 2</h4>
@@ -166,8 +169,9 @@
                     <a href="services.html" class="button-action-serv">Ver más</a>
                 </div>
             </div>
-
-            <div class="serv-box 3">
+        
+            <div class="serv-box 3 d-flex flex-column col-md-4">
+                <!-- Add col-md-4 class to specify the column size for medium screens and larger -->
                 <img src="./images/svg/paginas.svg" alt="paginas vector" class="service-vector">
                 <div class="black-container">
                     <h4 class="serv-title">Servicio 3</h4>
@@ -178,7 +182,8 @@
                     <a href="./pages/services.html" class="button-action-serv">Ver más</a>
                 </div>
             </div>
-        </div>
+        </div>        
+    </div>
     </section>
     <!-- SERVICES SECTION END -->
 

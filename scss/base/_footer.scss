@@ -9,6 +9,10 @@ footer {
     a {
         color: $main-light-c;
         text-decoration: none;
+
+        &:hover{
+            color: $main-light-c;
+        }
     }
     li {
         list-style-type: none;
