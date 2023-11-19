@@ -29,37 +29,70 @@
 </head>
 <!-- END OF META TAGS AND IMPORTED SHEETS -->
 
-<header class="">
-    <!-- NAV BAR -->
-    <nav class="navbar navbar-expand-md rounded">
-        <div class="container-fluid">
-            <!-- BRAND -->
-            <a class="navbar-brand" href="../index.html">VAL</a>
-            <!-- COLLAPSE BUTTON -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- NAV LINKS -->
-            <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../pages/about-me.html">About me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../pages/portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="../pages/services.html">Services</a>
-                    </li>
-                </ul>
+<body>
+    <header class="">
+        <!-- NAV BAR -->
+        <nav class="navbar navbar-expand-md rounded">
+            <div class="container-fluid">
+                <!-- BRAND -->
+                <a class="navbar-brand" href="./index.html">VAL</a>
+                <!-- COLLAPSE BUTTON -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <!-- NAV LINKS -->
+                <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/about-me.html">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./pages/services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./pages/contact.html">
+                                <div class="contact-button">Contact me!</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
-
+        </nav>
+    </header>
     <!-- END OF NAV BAR -->
-
+    <!-- FORMS START -->
+    <div class="wrapper">
+        <div class="inner">
+            <form action="">
+                <h3>Contact Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                </p>
+                <label class="form-group">
+                    <input type="text" class="form-control" required>
+                    <span>Your Name</span>
+                    <span class="border"></span>
+                </label>
+                <label class="form-group">
+                    <input type="text" class="form-control" required>
+                    <span for="">Your Mail</span>
+                    <span class="border"></span>
+                </label>
+                <label class="form-group">
+                    <textarea name="" id="" class="form-control" required></textarea>
+                    <span for="">Your Message</span>
+                    <span class="border"></span>
+                </label>
+                <button>Submit
+                    <i class="zmdi zmdi-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+    <!-- FORMS END -->
     <!-- FOOTER START -->
     <footer class="container-fluid">
         <!-- LOGO FOOTER -->
@@ -82,7 +115,7 @@
                     <li><i class="fa-solid fa-minus"></i><a href="">Lorem, ipsum dolor.</a></li>
                     <li><i class="fa-solid fa-minus"></i><a href="">Lorem, ipsum dolor.</a></li>
                     <li><i class="fa-solid fa-minus"></i><a href="">Lorem, ipsum dolor.</a></li>
-                    
+
                 </ul>
             </div>
             <!-- CONTACT FOOTER -->

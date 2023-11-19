@@ -11,7 +11,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- BS 5.1 ENDS -->
     <!-- CSS STARTS-->
-    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <!-- CSS ENDS -->
     <!-- FONTS START -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,32 +35,64 @@
         <nav class="navbar navbar-expand-md rounded">
             <div class="container-fluid">
                 <!-- BRAND -->
-                <a class="navbar-brand" href="../index.html">VAL</a>
+                <a class="navbar-brand" href="./index.html">VAL</a>
                 <!-- COLLAPSE BUTTON -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fa-solid fa-bars"></i>
                 </button>
                 <!-- NAV LINKS -->
                 <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../PAGES/about-me.html">About me</a>
+                            <a class="nav-link active" aria-current="page" href="./pages/about-me.html">About me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../PAGES/portfolio.html">Portfolio</a>
+                            <a class="nav-link active" aria-current="page" href="./pages/portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="../PAGES/services.html">Services</a>
+                            <a class="nav-link active" href="./pages/services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./pages/contact.html">
+                                <div class="contact-button">Contact me!</div>
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-
     <!-- END OF NAV BAR -->
-
+    <!-- FORMS START -->
+    <div class="wrapper">
+        <div class="inner">
+            <form action="">
+                <h3>Contact Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                </p>
+                <label class="form-group">
+                    <input type="text" class="form-control" required>
+                    <span>Your Name</span>
+                    <span class="border"></span>
+                </label>
+                <label class="form-group">
+                    <input type="text" class="form-control" required>
+                    <span for="">Your Mail</span>
+                    <span class="border"></span>
+                </label>
+                <label class="form-group">
+                    <textarea name="" id="" class="form-control" required></textarea>
+                    <span for="">Your Message</span>
+                    <span class="border"></span>
+                </label>
+                <button>Submit
+                    <i class="zmdi zmdi-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+    <!-- FORMS END -->
     <!-- FOOTER START -->
     <footer class="container-fluid">
         <!-- LOGO FOOTER -->

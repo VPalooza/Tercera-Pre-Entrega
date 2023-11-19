@@ -1,18 +1,21 @@
 // base
-@import '../base/_header.scss', '../base/_nav-bar.scss';
+@import '../base/_header.scss', '../base/_nav-bar.scss', '../base/_footer.scss';
 // componentes
 @import "../componentes/_colores.scss", "../componentes/_botones.scss",
     "../componentes/_fuentes.scss";
 
-#portfolio-wrap {
-    padding: 50%;
-    background-color: $main-light-c;
+body{
+background-image: $main-gradient-hero;
 }
 
+.portfolio-page-title{
+text-align: center;
+color: $main-light-c;
+padding: 5%;
+}
 
 /* gallery */
 .gallery-container {
-    background-color: $main-light-c;
     width: 100%;
     min-height: 100vh;
     display: flex;
