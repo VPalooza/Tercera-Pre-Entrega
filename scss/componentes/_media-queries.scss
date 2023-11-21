@@ -15,10 +15,6 @@
 }
 
 
-.row {
-    justify-content: center;
-}
-
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
     #portfolio,
@@ -49,9 +45,7 @@
         flex-wrap: wrap;
     }
 
-    .row {
-        justify-content: center;
-    }
+
     .inner {
         padding: 27px 20px 37px;
         border: none;

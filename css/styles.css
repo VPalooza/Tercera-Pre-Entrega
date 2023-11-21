@@ -2762,10 +2762,6 @@ html {
   margin: auto;
 }
 
-.row {
-  margin-left: calc(-0.9 * var(--bs-gutter-x));
-}
-
 .ab-me-text {
   background-color: #272727;
   display: flex;
@@ -2774,7 +2770,7 @@ html {
   gap: 30px;
   align-content: center;
   align-items: stretch;
-  padding: 20px 20px 20px 60px;
+  padding: 20px;
   height: 100vh;
 }
 .ab-me-text .text-1-ab {
@@ -2782,7 +2778,6 @@ html {
 }
 .ab-me-text .text-2-ab {
   font-weight: 600;
-  margin-top: -25px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .ab-me-text .ab-bot-title {
@@ -2801,16 +2796,14 @@ html {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-.center-text-wrap {
+.ab-me-text .center-text-wrap {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   gap: 20px;
 }
-
-.ab-button {
+.ab-me-text .ab-button {
   display: inline-flex;
   width: 20%;
   padding: 10px;
@@ -2822,15 +2815,32 @@ html {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   transition: transform 0.3s ease-in-out;
 }
-.ab-button a {
+.ab-me-text .ab-button a {
   color: #fff;
   text-decoration: none;
 }
-.ab-button:hover {
+.ab-me-text .ab-button:hover {
   transform: translateY(-5px);
 }
-.ab-button:active {
+.ab-me-text .ab-button:active {
   transform: translateY(0);
+}
+@media only screen and (max-width: 400px) {
+  .ab-me-text {
+    width: 100%;
+  }
+  .ab-me-text .ab-button {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .ab-me-text {
+    width: 100%;
+    font-size: 14px;
+  }
+  .ab-me-text .ab-button {
+    width: 100%;
+  }
 }
 
 .image-wrapper {
@@ -4584,10 +4594,6 @@ html {
   clip-path: none;
 }
 
-.row {
-  justify-content: center;
-}
-
 @media (max-width: 767.98px) {
   #portfolio,
   #sec-serv {
@@ -4614,9 +4620,6 @@ html {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-  }
-  .row {
-    justify-content: center;
   }
   .inner {
     padding: 27px 20px 37px;

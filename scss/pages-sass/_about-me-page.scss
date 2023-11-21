@@ -7,9 +7,7 @@
     padding-inline: 20px;
     margin: auto;
 }
-.row {
-    margin-left: calc(-0.9 * var(--bs-gutter-x));
-}
+
 .ab-me-text {
     background-color: $main-dark-c;
     display: flex;
@@ -18,41 +16,46 @@
     gap: 30px;
     align-content: center;
     align-items: stretch;
-    padding: 20px 20px 20px 60px;
+    padding: 20px;
     height: 100vh;
+
     .text-1-ab {
         text-shadow: $text-shadow;
     }
+
     .text-2-ab {
         font-weight: 600;
-        margin-top: -25px;
         text-shadow: $text-shadow;
     }
+
     .ab-bot-title {
         text-align: center;
         font-weight: 700;
     }
-    .ab-par{
+
+    .ab-par {
         font-weight: 400;
+
         span {
             font-weight: 800;
         }
     }
+
     .valerie-gradient {
         background: $main-gradient-hero;
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-}
 
-.center-text-wrap{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 20px;
-}
+    .center-text-wrap {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+    }
+
     .ab-button {
         display: inline-flex;
         width: 20%;
@@ -67,19 +70,38 @@
         );
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         transition: transform 0.3s ease-in-out;
+
         a {
             color: $main-light-c;
             text-decoration: none;
         }
+
         &:hover {
             transform: translateY(-5px);
         }
-    
+
         &:active {
             transform: translateY(0);
         }
     }
 
+    // Media query for smaller screens
+    @media only screen and (max-width: 400px) {
+        .ab-button {
+            width: 100%; // Adjust width to fit the screen
+        }
+        width: 100%; 
+    }
+
+    // Media query for even smaller screens
+    @media only screen and (max-width: 280px) {
+        .ab-button {
+            width: 100%; // Adjust width to fit the screen
+        }
+        width: 100%; 
+        font-size: 14px; 
+    }
+}
 
 .image-wrapper {
     display: flex;
