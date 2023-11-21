@@ -2,7 +2,7 @@
     "../componentes/_fuentes.scss";
 
 footer {
-    background-image: $main-gradient-hero;
+    background-color: $main-dark-c;
     height: 30vh;
     
     color: $main-light-c;
@@ -24,7 +24,10 @@ footer {
 
 .logo-footer {
     padding: 3%;
-    background-color: $main-dark-c;
+    background: $main-gradient-hero;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .p-container {

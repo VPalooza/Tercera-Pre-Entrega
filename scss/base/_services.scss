@@ -23,7 +23,7 @@
 .serv-box {
     padding: 1%;
     border: 15px solid transparent; 
-    border-radius: 10%;
+    border-radius: 50px;
     background-clip: padding-box;
     color: $main-light-c;
     box-shadow: 0px 2px 2px 0px rgba(15, 15, 15, 0.3);
@@ -44,9 +44,11 @@
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
+        text-shadow: $text-shadow;
     }
 
     img {
+        text-shadow: $text-shadow;
         width: 30%;
         height: 30%;
         margin: auto;

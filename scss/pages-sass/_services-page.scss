@@ -1,4 +1,35 @@
 @import "../base/_header.scss", "../base/_nav-bar.scss", "../base/_footer.scss";
 // componentes
 @import "../componentes/_colores.scss", "../componentes/_botones.scss",
-    "../componentes/_fuentes.scss", '../componentes/global-selector';
+    "../componentes/_fuentes.scss", "../componentes/global-selector";
+
+.services-p-wrap {
+    background-color: $main-dark-c;
+    height: 150%;
+    padding: 10px;
+    .services-t-t {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-weight: 800;
+        margin: auto;
+        .center-text-wrap {
+            font-weight: 600;
+            .ab-bot-title{
+                font-size: 60px;
+            }
+        }
+    }
+    .valerie-gradient {
+        background: $main-gradient-hero;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+.serv-box{
+    margin: auto;
+    padding: 20px; 
+    max-width: 600px;
+}
+}
