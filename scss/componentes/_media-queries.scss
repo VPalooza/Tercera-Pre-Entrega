@@ -1,34 +1,114 @@
 // @import "_colores.scss";
+@media (max-width: 320px) {
+    .navbar {
+        font-size: 1em;
+    }
+    h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .text-about-presentation p{
+        font-size: 15px;
+    }
+    .about-image {
+        display: none;
+    }
+    #about-me {
+        padding: 5%;
+    }
+    #portfolio {
+        padding: 10px;
+    }
+    .porfolio-text {
+        padding: 5px;
+    }
+    .portfolio-title-1 {
+        font-size: 25px;
+    }
+
+    .image-wrapper {
+display: none;
+    }
+    
+}
 // // Extra small devices (portrait phones, less than 576px)
 // // Extra small devices (phones, less than 576px)
 @media (max-width: 575.98px) {
     .navbar {
         font-size: 1em;
     }
-}
-.serv-box {
-    padding: 10px; 
-}
-#portfolio,
-#sec-serv {
-    clip-path: none;
-}
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    .about-p{
+        font-size: 20px;
+    }
+    .serv-box {
+        padding: 10px;
+    }
+    #about-me {
+        margin-top: -192px;
+        padding: 5%;
+    }
+    
+    .about-image,
+    .about-img-box,
+    .box {
+        display: none;
+    }
+    #portfolio {
+        padding: 10px;
+    }
+    .porfolio-text {
+        padding: 5px;
+    }
+    .portfolio-title-1 {
+        font-size: 25px;
+    }
 
+    .image-wrapper {
+        display: none;
+            }
+}
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
-    #portfolio,
-    #sec-serv {
-        clip-path: none;
+    #portfolio {
+        padding: 10px;
     }
+    .porfolio-text {
+        padding: 5px;
+    }
+    .portfolio-title-1 {
+        font-size: 25px;
+    }
+
     .center-text-wrap {
-        font-weight:500;
-        .ab-bot-title{
+        font-weight: 500;
+        .ab-bot-title {
             font-size: 30px;
         }
     }
     .serv-box {
-        padding: 15px; 
+        padding: 15px;
     }
     .navbar {
         font-size: 1em;
@@ -45,7 +125,6 @@
         flex-wrap: wrap;
     }
 
-
     .inner {
         padding: 27px 20px 37px;
         border: none;
@@ -59,6 +138,10 @@
         background-image: $main-gradient-hero;
         border: 10px solid $main-light-c;
     }
+
+    .image-wrapper {
+        display: none;
+            }
 }
 
 .sm-footer-box {
@@ -68,5 +151,13 @@
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-
+    #portfolio {
+        padding: 10px;
+    }
+    .porfolio-text {
+        padding: 5px;
+    }
+    .portfolio-title-1 {
+        font-size: 25px;
+    }
 }

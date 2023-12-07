@@ -3,11 +3,8 @@
 
     .serv-full-wrap {
     background: $main-dark-c;
-    clip-path: polygon(0 0, 100% 83px, 100% 100%, 0 100%);
-    margin-top: -83px;
-    z-index: -1;
     height: auto;
-    padding: 10%;
+    padding: 5%;
 
 }
 .text-center {
@@ -21,14 +18,16 @@
 }  
 
 .serv-box {
-    padding: 1%;
     border: 15px solid transparent; 
-    border-radius: 50px;
+    border-radius: 0px;
     background-clip: padding-box;
     color: $main-light-c;
     box-shadow: 0px 2px 2px 0px rgba(15, 15, 15, 0.3);
     background-image: $main-gradient-hero;
     transition: transform 0.3s ease-in-out;
+    ul{
+        list-style: none;
+    }
 
     .black-container {
         background-color: $main-dark-c;
@@ -53,12 +52,12 @@
         height: 30%;
         margin: auto;
         color: $main-light-c;
-        padding-bottom: 5%;
+        padding: 5%;
     }
 
     .button-action-serv {
         background-image: $main-gradient-hero;
-        padding: 5%;
+        padding: 3%;
         border-radius: 2%;
         box-shadow: $box-shadow;
     }

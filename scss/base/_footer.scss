@@ -3,7 +3,6 @@
 
 footer {
     background-color: $main-dark-c;
-    height: 30vh;
     
     color: $main-light-c;
     a {
@@ -15,7 +14,14 @@ footer {
         }
     }
     li {
+        transition: background 0.4s ease; 
         list-style-type: none;
+
+        &:hover {
+            background: $main-gradient-hero;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
     }
     .credit{
         color: $main-light-c;

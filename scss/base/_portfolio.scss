@@ -1,17 +1,14 @@
 @import "../componentes/_colores.scss", "../componentes/_botones.scss",
     "../componentes/_fuentes.scss";
 #portfolio {
-    background-color: #fff;
+    height: auto;
     display: flex;
-    height: 100vh;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-    flex-shrink: 1;
-    clip-path: polygon(0 83px, 100% 0, 100% 100%, 0 100%);
-    margin-top: -83px;
     background-image: $main-gradient-hero;
+    padding:30px;
 }
 
 .portfolio-all-wrap {
@@ -47,6 +44,10 @@
     box-shadow: $box-shadow;
 }
 
+.portfolio-title-1{
+    font-size: 40px;
+}
+
 .porfolio-text {
     padding-right: 100px;
     display: flex;
@@ -65,4 +66,5 @@
         padding: 0 0 20px 0;
         border-bottom: 3px solid $main-light-c;
     }
+
 }

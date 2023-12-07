@@ -6,8 +6,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Unlock the potential of your brand with personalized design and web development services by a skilled Graphic Designer and Web Developer. From captivating visuals to seamless websites, I bring your ideas to life. Elevate your online presence and engage your audience. Ready to turn your vision into reality? Let's create something extraordinary together.">
-    <meta name="keywords" content="Graphic Designer, Web Developer, Design Services, Web Development Services, Portfolio, Buy Services">
+    <meta name="description"
+        content="Unlock the potential of your brand with personalized design and web development services by a skilled Graphic Designer and Web Developer. From captivating visuals to seamless websites, I bring your ideas to life. Elevate your online presence and engage your audience. Ready to turn your vision into reality? Let's create something extraordinary together.">
+    <meta name="keywords"
+        content="Graphic Designer, Web Developer, Design Services, Web Development Services, Portfolio, Buy Services">
     <meta name="author" content="Valerie Rodriguez">
     <!-- BS 5.1 STARTS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -33,12 +35,13 @@
 <!-- END OF META TAGS AND IMPORTED SHEETS -->
 
 <body>
-    <header class="">
+    <!-- NAV BAR -->
+    <header>
         <!-- NAV BAR -->
         <nav class="navbar navbar-expand-md rounded">
             <div class="container-fluid">
                 <!-- BRAND -->
-                <a class="navbar-brand" href="../index.html">VAL</a>
+                <a class="navbar-brand" href="./index.html">VAL</a>
                 <!-- COLLAPSE BUTTON -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,13 +51,18 @@
                 <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../pages/about-me.html">About me</a>
+                            <a class="nav-link active" aria-current="page" href="./pages/about-me.html">About me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../pages/portfolio.html">Portfolio</a>
+                            <a class="nav-link active" aria-current="page" href="./pages/portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="../pages/services.html">Services</a>
+                            <a class="nav-link active" href="./pages/services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./pages/contact.html">
+                                <div class="contact-button">Contact me!</div>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -63,81 +71,103 @@
     </header>
     <!-- END OF NAV BAR -->
     <!-- PAGE SECTOR START -->
-    <div class="container-fluid services-p-wrap justify-content-center align-items-center">
-        <div class="services-t-t col-md-12 row">
-            <div class="center-text-wrap">
-                <h3 class="ab-bot-title">If you can imagine it <br><span class="valerie-gradient">I can make it</span>
-                </h3>
-                <div class="ab-button"><a href="../pages/contact.html">Feel like having a chat?</a></div>
+    <main>
+        <div class="container-fluid services-p-wrap justify-content-center align-items-center">
+            <div class="services-t-t col-md-12 row">
+                <div class="center-text-wrap">
+                    <h1 class="ab-bot-title">If you can imagine it <br><span class="valerie-gradient">I can make
+                            it</span>
+                    </h1>
+                    <div class="ab-button"><a href="../pages/contact.html">Feel like having a chat?</a></div>
+                </div>
             </div>
-        </div>
-        <div class="serv-boxes col-sm justify-content-center container-fluid">
+            <div class="serv-boxes col-sm justify-content-center container-fluid">
                 <div class="serv-box 1 d-flex flex-column">
                     <img src="../images/svg/paginas.svg" alt="page coding vector" class="service-vector">
                     <div class="black-container d-flex flex-column align-items-center">
-                        <h4 class="serv-title text-center">Servicio 1</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-                            quibusdam asperiores assumenda expedita ut ducimus?
-                        </p>
+                        <h4 class="serv-title text-center">UX Design</h4><br>
+                        <ul>
+                            <li>✅ <b>User Research</b>: Dive deep into user behavior and preferences to gather insights that inform a user-centric design strategy.</li><br>
+                            <li>✅ <b>Wireframing and Prototyping</b>: Create interactive prototypes and wireframes to visualize the user journey and refine the user experience before development.</li><br>
+                            <li>✅ <b>User Persona Development</b>: Define and understand your target audience through detailed user personas, ensuring designs resonate with your key demographics.</li><br>
+                            <li>✅ <b>Usability Testing</b>: Conduct thorough usability testing to identify and address potential pain points, ensuring a seamless and intuitive user experience.</li><br>
+                            <li>✅ <b>Information Architecture</b>: Organize and structure content logically, optimizing the flow of information and enhancing overall navigation for users.</li><br>
+                        </ul>
+                        <p>Crafting meaningful user experiences is our expertise. Let's collaborate to ensure your digital presence is not just seen but experienced with excellence! 🌐👩‍💻✨</p>
+                        
                     </div>
                 </div>
                 <div class="serv-box 2 d-flex flex-column">
                     <img src="../images/svg/pluma.svg" alt="pluma vector" class="service-vector">
                     <div class="black-container d-flex flex-column align-items-center">
-                        <h4 class="serv-title">Servicio 2</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-                            quibusdam asperiores assumenda expedita ut ducimus?
-                        </p>
+                        <h4 class="serv-title">Graphic design</h4><br>
+                        <ul>
+                            <li>✅ <b>Visual Branding</b>: Transform your brand identity with striking and memorable visual elements that authentically reflect your essence.</li><br>
+                            <li>✅ <b>Social Media Feed Curation</b>: Elevate your online presence through a meticulously curated social media feed, ensuring each post captivates and engages your audience.</li><br>
+                            <li>✅ <b>Design Consultation</b>: Collaborate with me to craft a cohesive visual strategy, ensuring your brand communicates a compelling and consistent message across all platforms.</li><br>
+                            <li>✅ <b>Custom Graphics</b>: From logos to promotional materials, we specialize in creating custom graphics that leave a lasting impression and resonate with your target audience.</li><br>
+                            <li>✅ <b>Brand Storytelling</b>: I don't just design; I tell your brand's story visually, creating an immersive and memorable experience for your audience.</li><br>
+                        </ul>
+                        <p>Let me be the architects of your visual success.</p>
                     </div>
                 </div>
                 <div class="serv-box 1 d-flex flex-column">
                     <img src="../images/svg/image retouch.svg" alt="page coding vector" class="service-vector">
                     <div class="black-container d-flex flex-column align-items-center">
-                        <h4 class="serv-title text-center">Servicio 1</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-                            quibusdam asperiores assumenda expedita ut ducimus?
-                        </p>
+                        <h4 class="serv-title text-center"> Graphic Design</h4><br>
+                        <ul>
+                            <li>✅ <b>Visual Branding</b>: Transform your brand identity with striking and memorable visual elements that authentically reflect your essence.</li><br>
+                            <li>✅ <b>Social Media Feed Curation</b>: Elevate your online presence through a meticulously curated social media feed, ensuring each post captivates and engages your audience.</li><br>
+                            <li>✅ <b>Design Consultation</b>: Collaborate with me to craft a cohesive visual strategy, ensuring your brand communicates a compelling and consistent message across all platforms.</li><br>
+                            <li>✅ <b>Custom Graphics</b>: From logos to promotional materials, we specialize in creating custom graphics that leave a lasting impression and resonate with your target audience.</li><br>
+                            <li>✅ <b>Brand Storytelling</b>: I don't just design; I tell your brand's story visually, creating an immersive and memorable experience for your audience.</li><br>
+                        </ul>
+                        <p>Let me be the architects of your visual success.</p>
                     </div>
                 </div>
                 <div class="serv-box 2 d-flex flex-column">
                     <img src="../images/svg/page coding.svg" alt="pluma vector" class="service-vector">
                     <div class="black-container d-flex flex-column align-items-center">
-                        <h4 class="serv-title">Servicio 2</h4>
+                        <h4 class="serv-title">Web Development</h4>
+                        <ul>
+                            <li>✅ <b>Responsive Website Design</b>: Craft a visually appealing and user-friendly website that seamlessly adapts to different devices, ensuring a consistent and engaging experience.</li><br>
+                            <li>✅ <b>Custom Web Development</b>: Tailor-made solutions to meet your unique needs, from dynamic web applications to feature-rich websites, we bring your ideas to life with precision and innovation.</li><br>
+                            <li>✅ <b>E-Commerce Development</b>: Power your online business with a robust and secure e-commerce platform, enhancing user experience and maximizing conversion potential.</li><br>
+                            <li>✅ <b>Content Management Systems (CMS)</b>: Take control of your website content effortlessly with a user-friendly CMS, allowing you to update and manage your site with ease.</li><br>
+                            <li>✅ <b>SEO Optimization</b>: Boost your online visibility with strategic SEO implementation, ensuring your website ranks high on search engines and attracts the right audience.</li><br>
+                        </ul>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-                            quibusdam asperiores da assumenda expedita ut ducimus?
+                            Your digital success story starts here. Let's build a web presence that stands out and delivers results! ✨🖥️
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        </div>
+    </main>
     <!-- PAGE SECTOR END -->
     <!-- FOOTER START -->
     <footer class="container-fluid">
         <!-- LOGO FOOTER -->
-        <div class="grid-footer-container row p-2 d-flex justify-content-evenly">
+        <div class="grid-footer-container row d-flex justify-content-start">
             <div class="logo-footer col-sm-6 col-md-2 d-flex">
-                <a href="">
+                <a href="#">
                     <h2>VAL</h2>
                 </a>
             </div>
             <div class="p-container col-sm-6 col-md-2">
-                <h2>VAL </h2>
-                <p class="logo-footer-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, natus?</p>
+                <h2>VAL</h2>
+                <p class="logo-footer-p">Innovative. Creative. Impactful. 🚀🎨✨</p>
             </div>
             <!-- SERVICES FOOTER -->
             <div class="services-box col-sm-6 col-md-2">
-                <h3>Lorem ipsum</h3>
+                <h3>My services</h3>
                 <ul>
-                    <li><i class="fa-solid fa-minus"></i><a href="">Lorem, ipsum dolor.</a></li>
-                    <li><i class="fa-solid fa-minus"></i><a href="">Lorem, ipsum dolor.</a></li>
-                    <li><i class="fa-solid fa-minus"></i><a href="">Lorem, ipsum dolor.</a></li>
-                    <li><i class="fa-solid fa-minus"></i><a href="">Lorem, ipsum dolor.</a></li>
-                    <li><i class="fa-solid fa-minus"></i><a href="">Lorem, ipsum dolor.</a></li>
+                    <li><i class="fa-solid fa-minus"></i><a href="#">Visual branding.</a></li>
+                    <li><i class="fa-solid fa-minus"></i><a href="#">Responsive website design.</a></li>
+                    <li><i class="fa-solid fa-minus"></i><a href="#">Custom graphics.</a></li>
+                    <li><i class="fa-solid fa-minus"></i><a href="#">SEO Optimization.</a></li>
+                    <li><i class="fa-solid fa-minus"></i><a href="#">Wireframing and prototyping.</a></li>
 
                 </ul>
             </div>
@@ -145,8 +175,8 @@
             <div class="contact-box col-sm-6 col-md-3">
                 <h3>Contact</h3>
                 <ul>
-                    <li><i class="fa-solid fa-minus"></i><a href="">mailmail@gmail.com</a></li>
-                    <li><i class="fa-solid fa-minus"></i><a href="">mailmail@gmail.com</a></li>
+                    <li><i class="fa-solid fa-minus"></i><a href="#">mailagency@gmail.com</a></li>
+                    <li><i class="fa-solid fa-minus"></i><a href="#">(54+) 11223344</a></li>
                 </ul>
             </div>
             <!-- SOCIAL MEDIA FOOTER -->
@@ -157,9 +187,6 @@
                     <li><a href="#"><i class="bi bi-behance"></i></a></li>
                 </ul>
             </div>
-        </div>
-        <div class="credit">
-            <h5 class="text-center">© Copyright 2023, Val Agency.</p>
         </div>
     </footer>
     <!-- FOOTER END -->

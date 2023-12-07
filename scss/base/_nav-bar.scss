@@ -7,10 +7,15 @@ button {
 }
 nav {
     padding: 0.2em;
-    background: rgba($main-light-c, 0.3);
+    background-color: $main-dark-c;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.navbar-nav{
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .nav-item {
